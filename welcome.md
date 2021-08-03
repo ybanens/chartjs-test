@@ -6,42 +6,7 @@
   <canvas id="myChart"></canvas>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-
-
-<script>
-  // === include 'setup' then 'config' above ===
-  const config = {
-  type: 'line',
-  data,
-  options: {}
-};
-
-const labels = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-];
-const data = {
-  labels: labels,
-  datasets: [{
-    label: 'My First dataset',
-    backgroundColor: 'rgb(255, 99, 132)',
-    borderColor: 'rgb(255, 99, 132)',
-    data: [0, 10, 5, 2, 20, 30, 45],
-  }]
-};
-
-  var myChart = new Chart(
-    document.getElementById('myChart'),
-    config
-  );
-</script>
- 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
 
 <canvas id="myChart" width="400" height="400"></canvas>
 <script>
